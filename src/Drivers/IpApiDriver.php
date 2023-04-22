@@ -1,12 +1,12 @@
 <?php
 
-namespace Yani\IpInfo\Drivers;
+namespace Xenokore\IpInfo\Drivers;
 
 use GuzzleHttp\Client;
 
-use Yani\IpInfo\Driver;
-use Yani\IpInfo\DriverInterface;
-use Yani\IpInfo\IpInfo;
+use Xenokore\IpInfo\Driver;
+use Xenokore\IpInfo\DriverInterface;
+use Xenokore\IpInfo\IpInfo;
 
 class IpApiDriver implements DriverInterface  {
 

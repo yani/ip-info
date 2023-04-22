@@ -1,5 +1,5 @@
 <?php
 
-namespace Yani\IpInfo\Exception;
+namespace Xenokore\IpInfo\Exception;
 
 class NoInfoException extends \Exception {}

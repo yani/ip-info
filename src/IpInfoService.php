@@ -1,9 +1,9 @@
 <?php
 
-namespace Yani\IpInfo;
+namespace Xenokore\IpInfo;
 
 use GuzzleHttp\Client;
-use Yani\IpInfo\Exception\NoInfoException;
+use Xenokore\IpInfo\Exception\NoInfoException;
 
 class IpInfoService {
 

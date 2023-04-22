@@ -1,6 +1,6 @@
 <?php
 
-namespace Yani\IpInfo;
+namespace Xenokore\IpInfo;
 
 interface DriverInterface  {
 

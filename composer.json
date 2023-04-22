@@ -1,12 +1,12 @@
 {
-    "name": "yani/ip-info",
+    "name": "xenokore/ip-info",
     "description": "GeoIP and IP information. Works with many different services.",
     "type": "library",
     "license": "MIT",
     "version": "0.1.0",
     "autoload": {
         "psr-4": {
-            "Yani\\IpInfo\\": "src/"
+            "Xenokore\\IpInfo\\": "src/"
         }
     },
     "authors": [

@@ -24,7 +24,7 @@ Based on `stevebauman/location` but simplified.
 ## Install
 
 ```
-composer require yani/ip-info
+composer require xenokore/ip-info
 ```
 
 
@@ -34,7 +34,7 @@ composer require yani/ip-info
 ```php
 require __DIR__ . '/vendor/autoload.php';
 
-$service = new Yani\IpInfo\IpInfoService();
+$service = new \Xenokore\IpInfo\IpInfoService();
 
 $ip = $service->getInfo('8.8.8.8');
 
@@ -44,7 +44,7 @@ var_dump($ip);
 Output:
 
 ``` 
-class Yani\IpInfo\IpInfo#33 (26) {
+class Xenokore\IpInfo\IpInfo#33 (26) {
   public readonly string $ip =>
   string(7) "8.8.8.8"
   public readonly string $country_code =>
